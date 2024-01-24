@@ -110,15 +110,7 @@ const Header = ({ lng, data }: Props) => {
                   sticky ? 'py-5 lg:py-2' : 'py-8'
                 } `}
               >
-                {data.layout?.logo.url && (
-                  <Image
-                    src={data.layout.logo.url}
-                    alt="logo"
-                    width={140}
-                    height={30}
-                    className="w-full dark:hidden"
-                  />
-                )}
+                <div className="text-4xl font-bold">Staging</div>
               </Link>
             </div>
             <div className="flex w-full items-center justify-between px-4">
